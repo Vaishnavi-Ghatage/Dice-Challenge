@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Challenge</title>
+    <style>
+        body{
+            background-color: darkcyan;
+        }
+      
+        .container{
+            display: grid;
+            width: 640px;
+            grid-template-columns: 300px 300px;
+            grid-template-rows: 300px 300px;
+            gap: 40px; 
+        }
+
+        h1{
+            font-size: 80px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: brown;
+        }
+        p{
+            font-size: 50px;
+            color: rgb(85, 10, 10);
+        }
+        img{
+            border-radius: 50px;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <center>
+    <h1>Refresh Me!!</h1>
+    <div class="container">
+        <div class="number one">
+            <p class="one1">Player 1</p>
+            <img class="img1" src="d6.png" width="280px"/>
+        </div>
+        <div class="number two">
+            <p class="two2">Player 2</p>
+            <img class="img2" src="d6.png" width="280px"/>
+        </div>
+
+    </div>
+</center>
+<script src="dice.js"></script>
+</body>
+</html>
